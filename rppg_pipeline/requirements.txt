@@ -2,3 +2,4 @@ opencv-python
 numpy
 scipy
 matplotlib
+# torch  # optional if you want to enable the tiny model hook

@@ -1,0 +1,181 @@
+{
+  "model": "rppg_pipeline/models/model.onnx",
+  "results": {
+    "(1, 'uint8')": {
+      "ok": false,
+      "error": "Required inputs (['onnx::Mul_1', 'onnx::Mul_2', 'onnx::Gather_3', 'onnx::Slice_4', 'onnx::Mul_5', 'onnx::Mul_6', 'onnx::Gather_7', 'onnx::Slice_8', 'onnx::Mul_9', 'onnx::Mul_10', 'onnx::Gather_11', 'onnx::Slice_12', 'onnx::Mul_13', 'onnx::Mul_14', 'onnx::Gather_15', 'onnx::Slice_16', 'onnx::Mul_17', 'onnx::Mul_18', 'onnx::Gather_19', 'onnx::Slice_20', 'onnx::Mul_21', 'onnx::Mul_22', 'onnx::Gather_23', 'onnx::Slice_24', 'onnx::Mul_25', 'onnx::Mul_26', 'onnx::Gather_27', 'onnx::Slice_28', 'onnx::Mul_29', 'onnx::Mul_30', 'onnx::Gather_31', 'onnx::Slice_32', 'onnx::Gather_33', 'onnx::Slice_34', 'onnx::Gather_35', 'onnx::Slice_36', 'onnx::Mul_37']) are missing from input feed (['arg_0.1']).",
+      "shape_in": [
+        1,
+        1,
+        36,
+        36,
+        3
+      ]
+    },
+    "(1, '01')": {
+      "ok": false,
+      "error": "Required inputs (['onnx::Mul_1', 'onnx::Mul_2', 'onnx::Gather_3', 'onnx::Slice_4', 'onnx::Mul_5', 'onnx::Mul_6', 'onnx::Gather_7', 'onnx::Slice_8', 'onnx::Mul_9', 'onnx::Mul_10', 'onnx::Gather_11', 'onnx::Slice_12', 'onnx::Mul_13', 'onnx::Mul_14', 'onnx::Gather_15', 'onnx::Slice_16', 'onnx::Mul_17', 'onnx::Mul_18', 'onnx::Gather_19', 'onnx::Slice_20', 'onnx::Mul_21', 'onnx::Mul_22', 'onnx::Gather_23', 'onnx::Slice_24', 'onnx::Mul_25', 'onnx::Mul_26', 'onnx::Gather_27', 'onnx::Slice_28', 'onnx::Mul_29', 'onnx::Mul_30', 'onnx::Gather_31', 'onnx::Slice_32', 'onnx::Gather_33', 'onnx::Slice_34', 'onnx::Gather_35', 'onnx::Slice_36', 'onnx::Mul_37']) are missing from input feed (['arg_0.1']).",
+      "shape_in": [
+        1,
+        1,
+        36,
+        36,
+        3
+      ]
+    },
+    "(1, 'mean')": {
+      "ok": false,
+      "error": "Required inputs (['onnx::Mul_1', 'onnx::Mul_2', 'onnx::Gather_3', 'onnx::Slice_4', 'onnx::Mul_5', 'onnx::Mul_6', 'onnx::Gather_7', 'onnx::Slice_8', 'onnx::Mul_9', 'onnx::Mul_10', 'onnx::Gather_11', 'onnx::Slice_12', 'onnx::Mul_13', 'onnx::Mul_14', 'onnx::Gather_15', 'onnx::Slice_16', 'onnx::Mul_17', 'onnx::Mul_18', 'onnx::Gather_19', 'onnx::Slice_20', 'onnx::Mul_21', 'onnx::Mul_22', 'onnx::Gather_23', 'onnx::Slice_24', 'onnx::Mul_25', 'onnx::Mul_26', 'onnx::Gather_27', 'onnx::Slice_28', 'onnx::Mul_29', 'onnx::Mul_30', 'onnx::Gather_31', 'onnx::Slice_32', 'onnx::Gather_33', 'onnx::Slice_34', 'onnx::Gather_35', 'onnx::Slice_36', 'onnx::Mul_37']) are missing from input feed (['arg_0.1']).",
+      "shape_in": [
+        1,
+        1,
+        36,
+        36,
+        3
+      ]
+    },
+    "(1, 'z')": {
+      "ok": false,
+      "error": "Required inputs (['onnx::Mul_1', 'onnx::Mul_2', 'onnx::Gather_3', 'onnx::Slice_4', 'onnx::Mul_5', 'onnx::Mul_6', 'onnx::Gather_7', 'onnx::Slice_8', 'onnx::Mul_9', 'onnx::Mul_10', 'onnx::Gather_11', 'onnx::Slice_12', 'onnx::Mul_13', 'onnx::Mul_14', 'onnx::Gather_15', 'onnx::Slice_16', 'onnx::Mul_17', 'onnx::Mul_18', 'onnx::Gather_19', 'onnx::Slice_20', 'onnx::Mul_21', 'onnx::Mul_22', 'onnx::Gather_23', 'onnx::Slice_24', 'onnx::Mul_25', 'onnx::Mul_26', 'onnx::Gather_27', 'onnx::Slice_28', 'onnx::Mul_29', 'onnx::Mul_30', 'onnx::Gather_31', 'onnx::Slice_32', 'onnx::Gather_33', 'onnx::Slice_34', 'onnx::Gather_35', 'onnx::Slice_36', 'onnx::Mul_37']) are missing from input feed (['arg_0.1']).",
+      "shape_in": [
+        1,
+        1,
+        36,
+        36,
+        3
+      ]
+    },
+    "(4, 'uint8')": {
+      "ok": false,
+      "error": "Required inputs (['onnx::Mul_1', 'onnx::Mul_2', 'onnx::Gather_3', 'onnx::Slice_4', 'onnx::Mul_5', 'onnx::Mul_6', 'onnx::Gather_7', 'onnx::Slice_8', 'onnx::Mul_9', 'onnx::Mul_10', 'onnx::Gather_11', 'onnx::Slice_12', 'onnx::Mul_13', 'onnx::Mul_14', 'onnx::Gather_15', 'onnx::Slice_16', 'onnx::Mul_17', 'onnx::Mul_18', 'onnx::Gather_19', 'onnx::Slice_20', 'onnx::Mul_21', 'onnx::Mul_22', 'onnx::Gather_23', 'onnx::Slice_24', 'onnx::Mul_25', 'onnx::Mul_26', 'onnx::Gather_27', 'onnx::Slice_28', 'onnx::Mul_29', 'onnx::Mul_30', 'onnx::Gather_31', 'onnx::Slice_32', 'onnx::Gather_33', 'onnx::Slice_34', 'onnx::Gather_35', 'onnx::Slice_36', 'onnx::Mul_37']) are missing from input feed (['arg_0.1']).",
+      "shape_in": [
+        1,
+        4,
+        36,
+        36,
+        3
+      ]
+    },
+    "(4, '01')": {
+      "ok": false,
+      "error": "Required inputs (['onnx::Mul_1', 'onnx::Mul_2', 'onnx::Gather_3', 'onnx::Slice_4', 'onnx::Mul_5', 'onnx::Mul_6', 'onnx::Gather_7', 'onnx::Slice_8', 'onnx::Mul_9', 'onnx::Mul_10', 'onnx::Gather_11', 'onnx::Slice_12', 'onnx::Mul_13', 'onnx::Mul_14', 'onnx::Gather_15', 'onnx::Slice_16', 'onnx::Mul_17', 'onnx::Mul_18', 'onnx::Gather_19', 'onnx::Slice_20', 'onnx::Mul_21', 'onnx::Mul_22', 'onnx::Gather_23', 'onnx::Slice_24', 'onnx::Mul_25', 'onnx::Mul_26', 'onnx::Gather_27', 'onnx::Slice_28', 'onnx::Mul_29', 'onnx::Mul_30', 'onnx::Gather_31', 'onnx::Slice_32', 'onnx::Gather_33', 'onnx::Slice_34', 'onnx::Gather_35', 'onnx::Slice_36', 'onnx::Mul_37']) are missing from input feed (['arg_0.1']).",
+      "shape_in": [
+        1,
+        4,
+        36,
+        36,
+        3
+      ]
+    },
+    "(4, 'mean')": {
+      "ok": false,
+      "error": "Required inputs (['onnx::Mul_1', 'onnx::Mul_2', 'onnx::Gather_3', 'onnx::Slice_4', 'onnx::Mul_5', 'onnx::Mul_6', 'onnx::Gather_7', 'onnx::Slice_8', 'onnx::Mul_9', 'onnx::Mul_10', 'onnx::Gather_11', 'onnx::Slice_12', 'onnx::Mul_13', 'onnx::Mul_14', 'onnx::Gather_15', 'onnx::Slice_16', 'onnx::Mul_17', 'onnx::Mul_18', 'onnx::Gather_19', 'onnx::Slice_20', 'onnx::Mul_21', 'onnx::Mul_22', 'onnx::Gather_23', 'onnx::Slice_24', 'onnx::Mul_25', 'onnx::Mul_26', 'onnx::Gather_27', 'onnx::Slice_28', 'onnx::Mul_29', 'onnx::Mul_30', 'onnx::Gather_31', 'onnx::Slice_32', 'onnx::Gather_33', 'onnx::Slice_34', 'onnx::Gather_35', 'onnx::Slice_36', 'onnx::Mul_37']) are missing from input feed (['arg_0.1']).",
+      "shape_in": [
+        1,
+        4,
+        36,
+        36,
+        3
+      ]
+    },
+    "(4, 'z')": {
+      "ok": false,
+      "error": "Required inputs (['onnx::Mul_1', 'onnx::Mul_2', 'onnx::Gather_3', 'onnx::Slice_4', 'onnx::Mul_5', 'onnx::Mul_6', 'onnx::Gather_7', 'onnx::Slice_8', 'onnx::Mul_9', 'onnx::Mul_10', 'onnx::Gather_11', 'onnx::Slice_12', 'onnx::Mul_13', 'onnx::Mul_14', 'onnx::Gather_15', 'onnx::Slice_16', 'onnx::Mul_17', 'onnx::Mul_18', 'onnx::Gather_19', 'onnx::Slice_20', 'onnx::Mul_21', 'onnx::Mul_22', 'onnx::Gather_23', 'onnx::Slice_24', 'onnx::Mul_25', 'onnx::Mul_26', 'onnx::Gather_27', 'onnx::Slice_28', 'onnx::Mul_29', 'onnx::Mul_30', 'onnx::Gather_31', 'onnx::Slice_32', 'onnx::Gather_33', 'onnx::Slice_34', 'onnx::Gather_35', 'onnx::Slice_36', 'onnx::Mul_37']) are missing from input feed (['arg_0.1']).",
+      "shape_in": [
+        1,
+        4,
+        36,
+        36,
+        3
+      ]
+    },
+    "(8, 'uint8')": {
+      "ok": false,
+      "error": "Required inputs (['onnx::Mul_1', 'onnx::Mul_2', 'onnx::Gather_3', 'onnx::Slice_4', 'onnx::Mul_5', 'onnx::Mul_6', 'onnx::Gather_7', 'onnx::Slice_8', 'onnx::Mul_9', 'onnx::Mul_10', 'onnx::Gather_11', 'onnx::Slice_12', 'onnx::Mul_13', 'onnx::Mul_14', 'onnx::Gather_15', 'onnx::Slice_16', 'onnx::Mul_17', 'onnx::Mul_18', 'onnx::Gather_19', 'onnx::Slice_20', 'onnx::Mul_21', 'onnx::Mul_22', 'onnx::Gather_23', 'onnx::Slice_24', 'onnx::Mul_25', 'onnx::Mul_26', 'onnx::Gather_27', 'onnx::Slice_28', 'onnx::Mul_29', 'onnx::Mul_30', 'onnx::Gather_31', 'onnx::Slice_32', 'onnx::Gather_33', 'onnx::Slice_34', 'onnx::Gather_35', 'onnx::Slice_36', 'onnx::Mul_37']) are missing from input feed (['arg_0.1']).",
+      "shape_in": [
+        1,
+        8,
+        36,
+        36,
+        3
+      ]
+    },
+    "(8, '01')": {
+      "ok": false,
+      "error": "Required inputs (['onnx::Mul_1', 'onnx::Mul_2', 'onnx::Gather_3', 'onnx::Slice_4', 'onnx::Mul_5', 'onnx::Mul_6', 'onnx::Gather_7', 'onnx::Slice_8', 'onnx::Mul_9', 'onnx::Mul_10', 'onnx::Gather_11', 'onnx::Slice_12', 'onnx::Mul_13', 'onnx::Mul_14', 'onnx::Gather_15', 'onnx::Slice_16', 'onnx::Mul_17', 'onnx::Mul_18', 'onnx::Gather_19', 'onnx::Slice_20', 'onnx::Mul_21', 'onnx::Mul_22', 'onnx::Gather_23', 'onnx::Slice_24', 'onnx::Mul_25', 'onnx::Mul_26', 'onnx::Gather_27', 'onnx::Slice_28', 'onnx::Mul_29', 'onnx::Mul_30', 'onnx::Gather_31', 'onnx::Slice_32', 'onnx::Gather_33', 'onnx::Slice_34', 'onnx::Gather_35', 'onnx::Slice_36', 'onnx::Mul_37']) are missing from input feed (['arg_0.1']).",
+      "shape_in": [
+        1,
+        8,
+        36,
+        36,
+        3
+      ]
+    },
+    "(8, 'mean')": {
+      "ok": false,
+      "error": "Required inputs (['onnx::Mul_1', 'onnx::Mul_2', 'onnx::Gather_3', 'onnx::Slice_4', 'onnx::Mul_5', 'onnx::Mul_6', 'onnx::Gather_7', 'onnx::Slice_8', 'onnx::Mul_9', 'onnx::Mul_10', 'onnx::Gather_11', 'onnx::Slice_12', 'onnx::Mul_13', 'onnx::Mul_14', 'onnx::Gather_15', 'onnx::Slice_16', 'onnx::Mul_17', 'onnx::Mul_18', 'onnx::Gather_19', 'onnx::Slice_20', 'onnx::Mul_21', 'onnx::Mul_22', 'onnx::Gather_23', 'onnx::Slice_24', 'onnx::Mul_25', 'onnx::Mul_26', 'onnx::Gather_27', 'onnx::Slice_28', 'onnx::Mul_29', 'onnx::Mul_30', 'onnx::Gather_31', 'onnx::Slice_32', 'onnx::Gather_33', 'onnx::Slice_34', 'onnx::Gather_35', 'onnx::Slice_36', 'onnx::Mul_37']) are missing from input feed (['arg_0.1']).",
+      "shape_in": [
+        1,
+        8,
+        36,
+        36,
+        3
+      ]
+    },
+    "(8, 'z')": {
+      "ok": false,
+      "error": "Required inputs (['onnx::Mul_1', 'onnx::Mul_2', 'onnx::Gather_3', 'onnx::Slice_4', 'onnx::Mul_5', 'onnx::Mul_6', 'onnx::Gather_7', 'onnx::Slice_8', 'onnx::Mul_9', 'onnx::Mul_10', 'onnx::Gather_11', 'onnx::Slice_12', 'onnx::Mul_13', 'onnx::Mul_14', 'onnx::Gather_15', 'onnx::Slice_16', 'onnx::Mul_17', 'onnx::Mul_18', 'onnx::Gather_19', 'onnx::Slice_20', 'onnx::Mul_21', 'onnx::Mul_22', 'onnx::Gather_23', 'onnx::Slice_24', 'onnx::Mul_25', 'onnx::Mul_26', 'onnx::Gather_27', 'onnx::Slice_28', 'onnx::Mul_29', 'onnx::Mul_30', 'onnx::Gather_31', 'onnx::Slice_32', 'onnx::Gather_33', 'onnx::Slice_34', 'onnx::Gather_35', 'onnx::Slice_36', 'onnx::Mul_37']) are missing from input feed (['arg_0.1']).",
+      "shape_in": [
+        1,
+        8,
+        36,
+        36,
+        3
+      ]
+    },
+    "(12, 'uint8')": {
+      "ok": false,
+      "error": "Required inputs (['onnx::Mul_1', 'onnx::Mul_2', 'onnx::Gather_3', 'onnx::Slice_4', 'onnx::Mul_5', 'onnx::Mul_6', 'onnx::Gather_7', 'onnx::Slice_8', 'onnx::Mul_9', 'onnx::Mul_10', 'onnx::Gather_11', 'onnx::Slice_12', 'onnx::Mul_13', 'onnx::Mul_14', 'onnx::Gather_15', 'onnx::Slice_16', 'onnx::Mul_17', 'onnx::Mul_18', 'onnx::Gather_19', 'onnx::Slice_20', 'onnx::Mul_21', 'onnx::Mul_22', 'onnx::Gather_23', 'onnx::Slice_24', 'onnx::Mul_25', 'onnx::Mul_26', 'onnx::Gather_27', 'onnx::Slice_28', 'onnx::Mul_29', 'onnx::Mul_30', 'onnx::Gather_31', 'onnx::Slice_32', 'onnx::Gather_33', 'onnx::Slice_34', 'onnx::Gather_35', 'onnx::Slice_36', 'onnx::Mul_37']) are missing from input feed (['arg_0.1']).",
+      "shape_in": [
+        1,
+        12,
+        36,
+        36,
+        3
+      ]
+    },
+    "(12, '01')": {
+      "ok": false,
+      "error": "Required inputs (['onnx::Mul_1', 'onnx::Mul_2', 'onnx::Gather_3', 'onnx::Slice_4', 'onnx::Mul_5', 'onnx::Mul_6', 'onnx::Gather_7', 'onnx::Slice_8', 'onnx::Mul_9', 'onnx::Mul_10', 'onnx::Gather_11', 'onnx::Slice_12', 'onnx::Mul_13', 'onnx::Mul_14', 'onnx::Gather_15', 'onnx::Slice_16', 'onnx::Mul_17', 'onnx::Mul_18', 'onnx::Gather_19', 'onnx::Slice_20', 'onnx::Mul_21', 'onnx::Mul_22', 'onnx::Gather_23', 'onnx::Slice_24', 'onnx::Mul_25', 'onnx::Mul_26', 'onnx::Gather_27', 'onnx::Slice_28', 'onnx::Mul_29', 'onnx::Mul_30', 'onnx::Gather_31', 'onnx::Slice_32', 'onnx::Gather_33', 'onnx::Slice_34', 'onnx::Gather_35', 'onnx::Slice_36', 'onnx::Mul_37']) are missing from input feed (['arg_0.1']).",
+      "shape_in": [
+        1,
+        12,
+        36,
+        36,
+        3
+      ]
+    },
+    "(12, 'mean')": {
+      "ok": false,
+      "error": "Required inputs (['onnx::Mul_1', 'onnx::Mul_2', 'onnx::Gather_3', 'onnx::Slice_4', 'onnx::Mul_5', 'onnx::Mul_6', 'onnx::Gather_7', 'onnx::Slice_8', 'onnx::Mul_9', 'onnx::Mul_10', 'onnx::Gather_11', 'onnx::Slice_12', 'onnx::Mul_13', 'onnx::Mul_14', 'onnx::Gather_15', 'onnx::Slice_16', 'onnx::Mul_17', 'onnx::Mul_18', 'onnx::Gather_19', 'onnx::Slice_20', 'onnx::Mul_21', 'onnx::Mul_22', 'onnx::Gather_23', 'onnx::Slice_24', 'onnx::Mul_25', 'onnx::Mul_26', 'onnx::Gather_27', 'onnx::Slice_28', 'onnx::Mul_29', 'onnx::Mul_30', 'onnx::Gather_31', 'onnx::Slice_32', 'onnx::Gather_33', 'onnx::Slice_34', 'onnx::Gather_35', 'onnx::Slice_36', 'onnx::Mul_37']) are missing from input feed (['arg_0.1']).",
+      "shape_in": [
+        1,
+        12,
+        36,
+        36,
+        3
+      ]
+    },
+    "(12, 'z')": {
+      "ok": false,
+      "error": "Required inputs (['onnx::Mul_1', 'onnx::Mul_2', 'onnx::Gather_3', 'onnx::Slice_4', 'onnx::Mul_5', 'onnx::Mul_6', 'onnx::Gather_7', 'onnx::Slice_8', 'onnx::Mul_9', 'onnx::Mul_10', 'onnx::Gather_11', 'onnx::Slice_12', 'onnx::Mul_13', 'onnx::Mul_14', 'onnx::Gather_15', 'onnx::Slice_16', 'onnx::Mul_17', 'onnx::Mul_18', 'onnx::Gather_19', 'onnx::Slice_20', 'onnx::Mul_21', 'onnx::Mul_22', 'onnx::Gather_23', 'onnx::Slice_24', 'onnx::Mul_25', 'onnx::Mul_26', 'onnx::Gather_27', 'onnx::Slice_28', 'onnx::Mul_29', 'onnx::Mul_30', 'onnx::Gather_31', 'onnx::Slice_32', 'onnx::Gather_33', 'onnx::Slice_34', 'onnx::Gather_35', 'onnx::Slice_36', 'onnx::Mul_37']) are missing from input feed (['arg_0.1']).",
+      "shape_in": [
+        1,
+        12,
+        36,
+        36,
+        3
+      ]
+    }
+  }
+}
